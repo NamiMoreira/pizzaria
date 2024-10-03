@@ -2,4 +2,4 @@ import { PrismaClient} from '@prisma/client'
 
 const prismaClient = new PrismaClient();
 
-expost defaut prismaClient;
+export default prismaClient;
